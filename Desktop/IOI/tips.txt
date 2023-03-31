@@ -1,0 +1,5 @@
+put your whole code inside main() function that makes your code 20% faster.
+sys.stdin is much faster than input especially in larger inputs.
+use : "inp = sys.stdin.readline" then "inp().strip().split()" it's much faster than "sys.stdin.readline.strip().split()"
+instead of printing each result individually, save them in list then print it.
+if you can use the inputs without turning them into integers, do it, you will gain time by deleting map function.
